@@ -36,4 +36,32 @@ while(salir == "1"){
     salir=prompt("1 - Para seguir convirtiendo \n 2 - para salir ");
 }
 
+//Array
 
+const monedas=[
+
+    {
+        moneda:"dolar",
+        cotizacion:280,
+        origen:"EEUU",
+    },
+    {
+        moneda:"euro",
+        cotizacion:290,
+        origen:"Union Europea",
+    },
+    {
+        moneda:"real",
+        cotizacion:71,
+        origen:"Brasil",
+    },
+    {
+        moneda:"libra",
+        cotizacion:310,
+        origen:"EEUU",
+    }, 
+];
+
+for(const moneda of monedas){
+    console.log(moneda)
+};
